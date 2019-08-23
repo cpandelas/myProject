@@ -1,0 +1,41 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "proiect coders lab",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot -d",
+    "build": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "./node_modules/gulp/bin/gulp.js watch",
+    "sass": "./node_modules/gulp/bin/gulp.js sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpandelas/myProject.git"
+  },
+  "author": "Catalin Pandelas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpandelas/myProject/issues"
+  },
+  "homepage": "https://github.com/cpandelas/myProject#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack-dev-server": "^3.8.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
